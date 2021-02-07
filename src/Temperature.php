@@ -17,6 +17,7 @@ class Temperature
     }
 
     /**
+     * @param float $celsius
      * @return static
      */
     public static function fromCelsius(float $celsius): self
