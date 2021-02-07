@@ -3,7 +3,6 @@
 
 namespace Designbycode\UnitConversions;
 
-
 class Temperature
 {
     private float $celsius;
@@ -33,6 +32,4 @@ class Temperature
     {
         return ($this->celsius * 1.8) + 32;
     }
-
-
 }
