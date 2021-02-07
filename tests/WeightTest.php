@@ -23,19 +23,4 @@ class WeightTest extends TestCase
         $this->assertEquals(220.4623, $lbs);
     }
 
-//    /** @test */
-//    public function it_can_convert_kilograms_to_stone_pounds()
-//    {
-//        $lbs = (new Weight(100))->toStLbs();
-//
-//        $this->assertEquals(220.4623, $lbs);
-//    }
-//
-//    /** @test */
-//    public function it_can_convert_kilograms_to_stone_ounces()
-//    {
-//        $lbs = (new Weight(100))->toStOz();
-//
-//        $this->assertEquals(220.4623, $lbs);
-//    }
 }
